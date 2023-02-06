@@ -20,7 +20,7 @@ To install the repository on your machine follow the instructions below;
 The app fetches data from the <a href = "https://developer.dribbble.com/v2/">dribble.api</a>.The user has the ability to create,update and delete projects.A user is however allowed to access this features after creating an account and signing in.
 
 ## Running the application
-You can access the web app directly by clicking <a href = "https://dribbly.vercel.app/">here</a>
+You can access the web app directly by clicking <a href = "https://dribbly-murex.vercel.app/">here</a>
 
 To run the application on your machine:-
 
