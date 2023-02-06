@@ -1,0 +1,241 @@
+#main-container {
+  position: relative;
+  top: 10em;
+  height: 90vh;
+  width: 90vw;
+  margin: auto;
+  /* margin-bottom: 10em; */
+}
+
+#main-container hr {
+  width: 70em;
+  position: relative;
+  left: -2em;
+}
+
+#section-links {
+  display: flex;
+}
+
+#section-links h5 {
+  cursor: pointer;
+  font-size: 1.5em;
+  margin: 0;
+  margin: 1em 3em;
+  color: grey;
+  font-weight: 400;
+}
+
+#section-links h5:hover {
+  color: black;
+}
+
+#section-links h5:active {
+  scale: 0.98;
+}
+
+#indicator {
+  position: absolute;
+  top: 3.4em;
+  left: 4.5em;
+  height: 0.5em;
+  width: 5.6em;
+  background-color: rgb(218, 105, 124);
+  transition: 0.5s;
+  border-radius: 5px;
+}
+
+#projects-container {
+  /* padding-top: 2em; */
+  margin-left: 2.4em;
+}
+
+#navlink {
+  text-decoration: none;
+  right: 2em;
+  bottom: 11em;
+  position: fixed;
+  height: 6em;
+  width: 6em;
+  background-color: rgb(206, 64, 88);
+  border-radius: 50%;
+  z-index: 1000;
+}
+
+#addButton h1 {
+  position: relative;
+  left: 0.35em;
+  top: .04em;
+  color: aliceblue;
+  font-size: 4.6em;
+  font-weight: 400;
+  margin: 0;
+}
+
+#navlink:hover {
+  border-radius: 50%;
+  background-color: rgb(234, 85, 110);
+}
+
+#navlink:active {
+  scale: 0.99;
+}
+
+#individualProjects {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  background-color: antiquewhite;
+  height: 30em;
+  width: 50em ;
+  margin-top: 4em;
+  margin-left: 2em;
+}
+
+#projectDetails{
+  position: relative;
+   display: flex;
+   flex-direction: column;
+   text-overflow: clip;
+   word-wrap: break-word;
+}
+
+#projectName{
+cursor: pointer;
+margin-left: 1em;
+margin-top: 1em;
+font-size:2.5em;
+color: #1d5f71 ;
+width: auto;
+min-height: 3em;
+max-height: 4em;
+}
+
+#descriptionMsg{
+    text-align: start;
+    font-size: 1.2em;
+    margin-left: 2em;
+    font-weight: 800;
+    margin-bottom: 1em;
+}
+
+#description{
+    cursor: pointer;
+    font-size: 1.3em;
+    font-weight: 400;
+    margin: 0;
+    text-align: start;
+    width: 24em;
+    line-break:normal;
+    padding-left: 2em;
+    color: rgb(106, 106, 106);
+}
+
+#technologies{
+  /* background-color: aliceblue; */
+  height: 5em;
+  margin-left: 2em;
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.tech{
+  position: absolute;
+  bottom: 5em;
+}
+
+#techTitle{
+  margin: 1em 2em;
+  font-weight: 800;
+}
+
+#technology{
+  align-self: center;
+  margin-left: .5em;
+  height: 3em;
+  width: 5em;
+  background-color: #1d5f71;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+#technology h6{
+  font-size: 1.2em;
+  font-weight: 800;
+  color: azure;
+  align-self: center;
+}
+
+.iconsSet{
+    position:absolute;
+    bottom: 2em;
+    left: 3em;
+    display: flex;
+    flex-direction: row;
+}
+
+.iconsSet h6{
+    font-size: 1em;
+    margin: 0em .5em;
+    color: rgb(96, 95, 95);
+    font-weight: 500;
+}
+
+#visibility{
+    color: black;
+    margin-left: 1em;
+}
+
+#likes{
+    color: red;
+    cursor: pointer;
+}
+
+#deleteIcon{
+    cursor: pointer;
+    position:absolute;
+    font-size: 2em;
+    right: -8em;
+    top:1em;
+}
+
+#deleteIcon:hover{
+    color: rgb(89, 89, 89);;
+}
+
+#timeCreated{
+  display: flex;
+  flex-direction: row;
+  width: 40em;
+  margin: 0em;
+}
+
+#timeCreated #first{
+  color: black;
+}
+
+#editIcon{
+background-color: green;
+cursor: pointer;
+position: absolute;
+right: -10em;
+top: 2em;
+border: none;
+padding: .5em 1em;
+font-weight: 800;
+border-radius: 10px;
+color: azure;
+transition: .1s;
+}
+
+#editIcon:hover{
+  opacity: .8;
+}
+
+#editIcon:active{
+  background-color: green;
+  color: azure;
+  scale: .97;
+}

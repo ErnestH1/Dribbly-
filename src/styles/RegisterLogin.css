@@ -1,0 +1,172 @@
+.auth-form-container{
+  background: rgb(174,222,238);
+  background: radial-gradient(circle, rgba(174,222,238,1) 60%, rgba(148,187,233,1) 80%);
+  height: 100vh;
+  width: 100vw;
+}
+
+#registerCancel{
+  position: absolute;
+  left: 15em;
+  border: none;
+  font-size: 2em;
+  border-radius: 10px;
+  padding: .3em 1em;
+}
+
+.register-form {
+  box-sizing: border-box;
+  padding-right: 3em;
+  padding-top: 2em;
+  height: 35em;
+  position: relative;
+  left: 30em;
+  background-color: white;
+  top:3em;
+  width: 40em;
+  text-align: center;
+  box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+  border-radius: 24px;
+}
+
+#registerLabel {
+  margin-top: 4em;
+  margin-bottom: 1em;
+  position: relative;
+  top: -3em;
+  /* left: 4em; */
+}
+
+.nameLabel {
+  position: relative;
+  left: 4.4em;
+}
+
+.emailLabel {
+  position: relative;
+  left: 3.7em;
+}
+
+#email {
+  position: relative;
+  left: 1em;
+}
+
+.passwordLabel {
+  position: relative;
+  left: 4.4em;
+}
+
+#checkboxspan{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  left: 8.5em;
+  top: -5px;
+}
+
+#checkBoxRequired{
+  color: red;
+  font-size: .7em;
+  margin: 0;
+  position: relative;
+  top: -10px;
+  left: -12.5em;
+  visibility: hidden;
+}
+
+#checkboxspan h6{
+margin-left: 1em;
+font-size: .8em;
+position: relative;
+top:5px;
+}
+
+#name,
+#email,
+#password {
+  width: 25em;
+  padding: 0.5em;
+  margin-top: 0.5em;
+}
+
+#registerButtonSubmit {
+  border: none;
+  padding: 0.3em;
+  position: relative;
+  left: 2.2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  width: 25em;
+}
+
+#registerButtonSubmit:hover {
+  background-color: rgb(214, 211, 211);
+}
+
+.link-btn{
+  margin-left: 10em;
+  margin-top: 1em;
+  display: flex;
+  flex-direction: row;
+  left: 40em;
+}
+
+.link-btn h6{
+  position: relative;
+  top : .2em;
+  margin-right: 1em;
+}
+
+
+#errorMsg{
+  margin: 0;
+  position: absolute;
+  width: 20em;
+  color: red;
+  font-size: .7em;
+  top: 17px;
+}
+
+.nameErr{
+  left: 19em;
+  visibility: hidden;
+}
+
+.emailErr{
+  left: 19em;
+  visibility: hidden;
+}
+
+.passErr{
+  left: 20em;
+  visibility: hidden;
+}
+
+.loginemailErr{
+  left: 20em;
+  visibility: hidden;
+}
+
+.loginpassErr{
+  left: 19.5em;
+  visibility: hidden;
+}
+
+#passSpan{
+  position: relative;
+}
+
+#visibilityIcon{
+  cursor: pointer;
+  position: absolute;
+  top: -2px;
+  right: .2em;
+  background-color: white;
+  width:25px;
+}
+
+#visibilityIcon:hover{
+  color: grey;
+}
+
